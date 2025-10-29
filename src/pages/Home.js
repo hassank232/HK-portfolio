@@ -14,7 +14,7 @@ function Home() {
 
         <button 
             className="border-2 border-x-red-500 border-y-red-500 text-white bg-transparent px-3 py-2 rounded hover:bg-white hover:text-black mt-3 transition-colors duration-300"
-            onClick={() => window.open('/HKsResume25.pdf', '_blank')}
+            onClick={() => window.open('/HKsResume.pdf', '_blank')}
         >Resume</button>
     </div>  
 
