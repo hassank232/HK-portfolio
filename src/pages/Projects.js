@@ -13,7 +13,7 @@ const Projects = () => {
       id: 2,
       title: "Serverless URL Shortener", 
       techStack: "Next.js, TypeScript, AWS, Node.js",
-      link: "https://github.com/your-username/projectname", 
+      link: "https://github.com/hassank232/aws-url_shortener", 
     },
     {
       id: 3,
