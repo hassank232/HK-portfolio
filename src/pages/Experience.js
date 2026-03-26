@@ -12,23 +12,23 @@ const Experience = () => {
         </div>
 
         {/* Experience Cards - Horizontal Layout */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           
           {/* Independent Software Development Card */}
           <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 shadow-xl border border-white/20 hover:bg-white/15 hover:shadow-2xl transition-all duration-300 hover:scale-105">
             <div className="mb-3">
               <h2 className="text-lg font-bold text-white mb-1">Software Developer</h2>
-              <h3 className="text-md text-blue-300 font-semibold">Current Independent Project</h3>
+              <h3 className="text-md text-blue-300 font-semibold">Current Independent Projects</h3>
             </div>
             
             <div className="text-gray-300 space-y-2 text-base">
               <div className="flex items-start">
                 <span className="text-red-500 mr-2 mt-1 text-lg">•</span>
-                <p>Developing RAG chatbot with LangChain and OpenAI API processing 50+ documents using ChromaDB vector database for semantic search reducing hallucinations by 80% through document embeddings and re-ranking algorithms</p>
+                <p>Serverless URL shortening service built with AWS Lambda, Node.js, API Gateway, and DynamoDB. Deployed with CloudFront CDN for global distribution.</p>
               </div>
               <div className="flex items-start">
                 <span className="text-red-500 mr-2 mt-1 text-lg">•</span>
-                <p>Engineering full-stack application with React and FastAPI enabling real-time streaming responses with conversation memory and dynamic document upload</p>
+                <p>Full-stack cloud storage application built with Spring Boot, React, and AWS (S3, RDS, EC2). Features secure file management with JWT authentication via Cognito.</p>
               </div>
             </div>
           </div>
@@ -58,7 +58,7 @@ const Experience = () => {
           </div>
 
           {/* Future Experience Placeholder Card */}
-          <div className="bg-white/5 backdrop-blur-md rounded-xl p-6 shadow-xl border border-white/10 border-dashed hover:bg-white/10 transition-all duration-300">
+          {/* <div className="bg-white/5 backdrop-blur-md rounded-xl p-6 shadow-xl border border-white/10 border-dashed hover:bg-white/10 transition-all duration-300">
             <div className="text-center h-full flex flex-col justify-center">
               <h2 className="text-lg font-bold text-gray-400 mb-2">Next Chapter</h2>
               <p className="text-gray-500 text-sm mb-4">Ready for new opportunities and challenges</p>
@@ -68,7 +68,7 @@ const Experience = () => {
                 </span>
               </div>
             </div>
-          </div>
+          </div> */}
 
         </div>
       </div>

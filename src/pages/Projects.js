@@ -75,7 +75,7 @@ const Projects = () => {
           ))}
 
           {/* Empty card for future project */}
-          <div className="bg-white/5 backdrop-blur-md rounded-xl p-6 shadow-xl border border-white/10 border-dashed">
+          {/* <div className="bg-white/5 backdrop-blur-md rounded-xl p-6 shadow-xl border border-white/10 border-dashed">
             <div className="text-center h-full flex flex-col justify-center">
               <h2 className="text-lg font-bold text-gray-400 mb-2">Next Project = Ai</h2>
               <p className="text-gray-500 text-sm mb-4">Coming Soon</p>
@@ -85,7 +85,7 @@ const Projects = () => {
                 </span>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

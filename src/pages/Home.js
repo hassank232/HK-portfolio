@@ -7,17 +7,16 @@ function Home() {
     <div className="min-h-screen flex flex-col lg:flex-row items-center px-4 lg:px-0 pt-10 lg:pt-0">
       {/* Text Section */}
       <div className="w-full lg:w-1/2 lg:pl-24 text-center lg:text-left mt-8 lg:mt-0">
-        <div><span className="inline-block text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white hover:text-blue-500 hover:scale-110 transition-transform duration-300">Hi</span></div>
-        <div><span className="inline-block text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white hover:text-red-500 hover:scale-110 transition-transform duration-300">I'm Hassan,</span></div>
-        <div><span className="inline-block text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white hover:text-green-600 hover:scale-110 transition-transform duration-300">software engineer.</span></div>
-        <p className="text-sm md:text-base text-gray-500">Computer science, 2024 at UW-Milwaukee</p>
+        {/*<div><span className="inline-block text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white hover:text-blue-500 hover:scale-110 transition-transform duration-300">Hi</span></div>*/}
+        <div><span className="inline-block text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white hover:text-red-500 hover:scale-110 transition-transform duration-300">Hassan Khalid</span></div>
+        <div><span className="inline-block text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white hover:text-green-600 hover:scale-110 transition-transform duration-300">Software Engineer</span></div>
+        <p className="text-sm md:text-base text-gray-500 mt-7">Computer Science, 2024 at UW-Milwaukee</p>
 
         <button 
             className="border-2 border-x-red-500 border-y-red-500 text-white bg-transparent px-3 py-2 rounded hover:bg-white hover:text-black mt-3 transition-colors duration-300"
             onClick={() => window.open('/HKsResume.pdf', '_blank')}
         >Resume</button>
     </div>  
-
 
     {/* INSERT: animation, gif, or something here */}
     <div className="w-full lg:w-1/2 flex items-center justify-center mt-8 lg:-ml-28 lg:-mt-36">
