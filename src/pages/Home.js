@@ -10,10 +10,10 @@ function Home() {
         {/*<div><span className="inline-block text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white hover:text-blue-500 hover:scale-110 transition-transform duration-300">Hi</span></div>*/}
         <div><span className="inline-block text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white hover:text-red-500 hover:scale-110 transition-transform duration-300">Hassan Khalid</span></div>
         <div><span className="inline-block text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white hover:text-green-600 hover:scale-110 transition-transform duration-300">Software Engineer</span></div>
-        <p className="text-sm md:text-base text-gray-500 mt-7">Computer Science, 2024 at UW-Milwaukee</p>
+        <p className="text-sm md:text-base text-gray-500 mt-5">Computer Science, 2024 at UW-Milwaukee</p>
 
         <button 
-            className="border-2 border-x-red-500 border-y-red-500 text-white bg-transparent px-3 py-2 rounded hover:bg-white hover:text-black mt-3 transition-colors duration-300"
+            className="border-2 border-x-red-500 border-y-red-500 text-white bg-transparent px-3 py-2 rounded hover:bg-white hover:text-black mt-5 transition-colors duration-300"
             onClick={() => window.open('/HKsResume.pdf', '_blank')}
         >Resume</button>
     </div>  

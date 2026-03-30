@@ -11,15 +11,15 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Serverless URL Shortener", 
-      techStack: "Next.js, TypeScript, AWS, Node.js",
-      link: "https://github.com/hassank232/aws-url_shortener", 
-    },
-    {
-      id: 3,
       title: "Nitin-Collaborative Study Platform ",
       techStack: "JavaScript, Svelte/SvelteKit, Tailwind CSS, Docker, Supabase",
       link: "https://github.com/hassank232/nitin-collaborativeStudyPlatform", 
+    },
+    {
+      id: 3,
+      title: "Serverless URL Shortener", 
+      techStack: "Next.js, TypeScript, AWS, Node.js",
+      link: "https://github.com/hassank232/aws-url_shortener", 
     },
     {
       id: 4,
@@ -41,7 +41,7 @@ const Projects = () => {
         {/* Page Header */}
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold text-white mb-4">Projects</h1>
-          <p className="text-gray-300 text-lg">A showcase of my coding applications with demo video + live link in github</p>
+          <p className="text-gray-300 text-lg">A showcase of my coding applications with demo videos/live links in github</p>
         </div>
 
         {/* Projects Grid */}

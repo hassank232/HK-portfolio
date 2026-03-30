@@ -24,11 +24,11 @@ const Experience = () => {
             <div className="text-gray-300 space-y-2 text-base">
               <div className="flex items-start">
                 <span className="text-red-500 mr-2 mt-1 text-lg">•</span>
-                <p>Serverless URL shortening service built with AWS Lambda, Node.js, API Gateway, and DynamoDB. Deployed with CloudFront CDN for global distribution.</p>
+                <p>Serverless URL shortening service built with AWS Lambda, Node.js, API Gateway and DynamoDB. Deployed with CloudFront CDN for global distribution.</p>
               </div>
               <div className="flex items-start">
                 <span className="text-red-500 mr-2 mt-1 text-lg">•</span>
-                <p>Full-stack cloud storage application built with Spring Boot, React, and AWS (S3, RDS, EC2). Features secure file management with JWT authentication via Cognito.</p>
+                <p>Full-stack cloud storage application built with Spring Boot, React and AWS (S3, RDS, EC2). Features secure file management with JWT authentication via Cognito.</p>
               </div>
             </div>
           </div>
@@ -37,18 +37,18 @@ const Experience = () => {
           <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 shadow-xl border border-white/20 hover:bg-white/15 hover:shadow-2xl transition-all duration-300 hover:scale-105">
             <div className="mb-4">
               <h2 className="text-lg font-bold text-white mb-1">CodePath</h2>
-              <h3 className="text-md text-blue-300 font-semibold">(partnered with Microsoft, Amazon, Google)</h3>
+              <h3 className="text-md text-blue-300 font-semibold">(Partnered with Microsoft, Amazon)</h3>
               <p className="text-gray-400 text-xs mt-1">Software Engineering Prep • Remote</p>
             </div>
             
             <div className="text-gray-300 space-y-2 text-base">
               <div className="flex items-start">
                 <span className="text-red-500 mr-2 mt-1 text-lg">•</span>
-                <p>Solved 30+ challenging data structure and algorithm problems in Python through collaboration with industry mentors and peers, covering trees, graphs, recursion, and dynamic programming.</p>
+                <p>Solved 30+ challenging data structure and algorithm problems in Python through collaboration with industry mentors and peers, covering trees, graphs, recursion and dynamic programming.</p>
               </div>
               <div className="flex items-start">
                 <span className="text-red-500 mr-2 mt-1 text-lg">•</span>
-                <p>Applied problem-solving patterns including sliding window, two pointers, binary search, and graph traversal to optimize algorithmic efficiency.</p>
+                <p>Applied problem-solving patterns including sliding window, two pointers, binary search and graph traversal to optimize algorithmic efficiency.</p>
               </div>
               <div className="flex items-start">
                 <span className="text-red-500 mr-2 mt-1 text-lg">•</span>

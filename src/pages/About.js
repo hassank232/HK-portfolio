@@ -6,7 +6,7 @@ function About() {
     // Skills data organized by category
     const skillsData = {
         languages: [
-            { name: 'Java', years: "4+", percentage: 80 },
+            { name: 'Java', years: "4", percentage: 80 },
             { name: 'Python', years: 4, percentage: 65 },
             { name: 'JavaScript/TypeScript', years: 3, percentage: 45 },
             { name: 'C', years: 1, percentage: 20 },
@@ -23,7 +23,7 @@ function About() {
         tools: [
             { name: 'AWS', years: 1, percentage: 20 },
             { name: 'Docker', years: 1, percentage: 20 },
-            { name: 'Git/GitHub', years: "4+", percentage: 80 },
+            { name: 'Git/GitHub', years: "4", percentage: 80 },
             { name: 'MySQL', years: 3, percentage: 45 },
             { name: 'PostgreSQL', years: 2, percentage: 35 },
             { name: 'Supabase', years: 1, percentage: 20 }
@@ -42,8 +42,8 @@ function About() {
                 <div className="max-w-3xl mx-auto mb-7">
                     <p className="text-lg text-gray-300 leading-relaxed">
                     I'm an ambitious Software Engineer, with
-                    hands-on experience in full-stack development, agile methodologies, and software design
-                    principles. Strong foundation in data structures, algorithms, and object-oriented programming,
+                    hands-on experience in full-stack development, agile methodologies and software design
+                    principles. Strong foundation in data structures, algorithms and object-oriented programming,
                     combined with practical experience in collaborative development using industry-standard
                     DevOps tools and version control systems.
                     </p>
